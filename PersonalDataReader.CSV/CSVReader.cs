@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace PersonDataReader.CSV
 {
-    public class CSVReader : IPersonReader
+    public class CSVReader : IDataReader
     {
         public ICSVFileLoader FileLoader { get; set; }
 

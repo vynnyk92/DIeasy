@@ -45,5 +45,11 @@
     <Compile Include="CSVReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PeopleViewer.Common\PeopleViewer.Common.csproj">
+      <Project>{5d9d9be8-9c6a-4655-9695-99942577a1d2}</Project>
+      <Name>PeopleViewer.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
